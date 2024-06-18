@@ -27,7 +27,7 @@ The total size of the raw dataset is approximately 12.5 GB once it has been unco
 We recommend considering the following for your data pre-processing:
 
 1. Automate the raw data download using web scraping techniques. This includes extraction of individual audio files. 
-2. Pre-process data using audio signal processing packages such as [WarbleR](https://cran.r-project.org/web/packages/warbleR/vignettes/warbleR_workflow.html), [TuneR](https://cran.r-project.org/web/packages/tuneR/index.html), [seewave](https://cran.r-project.org/web/packages/seewave/index.html) for R, or similar packages for other programming languages
+2. Pre-process data using audio signal processing packages such as [WarbleR](https://cran.r-project.org/web/packages/warbleR/vignettes/warbleR_workflow.html), [TuneR](https://cran.r-project.org/web/packages/tuneR/index.html), [seewave](https://cran.r-project.org/web/packages/seewave/index.html) for R, [librosa](https://librosa.org/doc/latest/index.html), [PyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) for Python, or similar packages for other programming languages
 3. Consider, in particular, the [human vocal range][1], which typically resides within the range of **0Hz-280Hz**
 3. To help you on your way to identify potentially interesting features, consider the following (non-exhaustive) list:
   - Mean frequency (in kHz)
@@ -64,13 +64,13 @@ The following are reference points that should be taken into account in the subm
 
 ### Deadline
 
-You have **14 days** to complete the assignment from the time that you have received the email containing the link to this GitHub repository.
+You have **7 days** to complete the assignment from the time that you have received the email containing the link to this GitHub repository.
 
 > **Note:** Your submission will be judged with this timeframe in mind, and we do not expect the equivalent of a month's worth of work.
 
 ### Requirements
 
-A written presentation, in **HTML or PDF format**, that clearly and succinctly walks us through your approach to extracting features, exploring them, uncovering any potential constraints or issues with the data in its provided form, your choice of predictive models and your analysis of the models' performance. Try to keep it concise. Please send your presentation (see *Requirements* below)to **l.badlani [at] gmail.com**, with it as an attachment, or provide us with a link to where you've uploaded your work.
+A written presentation, in **HTML or PDF format**, that clearly and succinctly walks us through your approach to extracting features, exploring them, uncovering any potential constraints or issues with the data in its provided form, your choice of predictive models and your analysis of the models' performance. Try to keep it concise. Please send your presentation (see *Requirements* below)to **charan [at] datung.io**, with it as an attachment, or provide us with a link to where you've uploaded your work.
 
 Happy coding!
 
@@ -79,8 +79,8 @@ Happy coding!
 1. **Can I use &lt;Insert SDK or Framework here&gt; for the take home assignment?**
   > **Answer:** Yes, you are free to make use of the tools that you are most comfortable working with. We work with a mix of frameworks, and try to use the one best fit for the task at hand.
 2. **Where do I send my assignment upon completion?**
-  > **Answer:** You should have received an email with instructions about this take home assignment that led you to this repo. If you have been invited to the take home assignment, but haven't received an email, please email us at *l.badlani[at]gmail.com*.
+  > **Answer:** You should have received an email with instructions about this take home assignment that led you to this repo. If you have been invited to the take home assignment, but haven't received an email, please email us at *charan[at]datung.io*.
 3. **The raw data is too large to fit in memory, what do I do?**
   > **Answer:** This is part of the challenge, and the dataset is by design larger than can fit in memory for a normal computer. You will have to come up with a solution that enables processing of the data in a batch-like, or streaming, fashion, to extract meaningful features.
 4. **Where do I send my presentation of my results?**
-  > **Answer:** Please send it to **l.badlani [at] gmail.com**. In case you've uploaded your work somewhere else please provide a link that allows us to view it for evaluation.
+  > **Answer:** Please send it to **charan [at] datung.io**. In case you've uploaded your work somewhere else please provide a link that allows us to view it for evaluation.
